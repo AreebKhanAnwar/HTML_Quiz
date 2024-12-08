@@ -107,7 +107,7 @@ function again() {
         // console.log("Final Score:", score); 
         alert("Quiz Complete")
        var Finalscore = document.getElementById("Finalscore");
-       Finalscore.innerText = "Your Score is " + score;
+       Finalscore.innerText = "Your Score is 10 out of " + score;
     }
 }
 
